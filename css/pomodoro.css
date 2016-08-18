@@ -8,11 +8,12 @@ body
   background: #fdbf5c;
   margin-top: 0;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .page-header h1
 {
-  font-size: 5em;
+  font-size: 5vw;
   padding-top: 10px;
   color: #c97d03;
   text-shadow:1px 1px 7px #4b2f01;
@@ -22,4 +23,25 @@ body
 {
   border: dashed;
   border-color: #fdce81;
+}
+
+.col-md-1
+{
+  background: #fdbf5c;
+  height: 10em;
+  height: 100vh;
+}
+
+.col-md-3
+{
+  background: #435e59;
+  height: 10em;
+  height: 100vh;
+}
+
+.col-md-4
+{
+  background: #ee444d;
+  height: 10em;
+  height: 100vh;
 }

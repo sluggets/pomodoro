@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", function() {
   var listen = document.getElementById("myButton");
   var initVal = document.getElementById("timer"); 
   initVal.innerHTML = '1:00';
-  minutesToGo = 0;
-  secondsToGo = 10;
+  minutesToGo = 1;
+  secondsToGo = 60;
   listen.addEventListener("click", function () {
      interValID = window.setInterval(displayTime, 1000); 
   });
