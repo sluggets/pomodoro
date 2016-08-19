@@ -35,14 +35,12 @@ body
 .col-md-3
 {
   background: #435e59;
-  /*height: 10em;*/
   height: 100vh;
 }
 
 .col-md-4
 {
   background: #ee444d;
-  /*height: 10em;*/
   height: 100vh;
 }
 
@@ -68,11 +66,20 @@ body
 {
   width: 90px;
   height: 90px;
-  border-radius: 50%;
+  border-radius: 40%;
   background: black;
   position: absolute;
   top: 50%;
   left: 50%;
   margin-top: -45px;
   margin-left: -45px;
+}
+
+.side-eight
+{
+  color: white;
+  font-size: 99px;
+  position: absolute;
+  top: -23px;
+  left: 18px;
 }
