@@ -83,3 +83,30 @@ body
   top: -23px;
   left: 18px;
 }
+
+.middle-circle
+{
+  width: 200px;
+  height: 200px;
+  border-radius: 40%;
+  background: black;
+  margin-top: 2em;
+}
+
+.middle-eight-work
+{
+  color: white;
+  font-size: 150px;
+  position: absolute;
+  top: 23px;
+  left: 37px;
+}
+
+.middle-eight-play
+{
+  color: white;
+  font-size: 150px;
+  position: absolute;
+  top: 23px;
+  left: 75px;
+}
