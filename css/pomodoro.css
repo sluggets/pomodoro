@@ -110,3 +110,27 @@ body
   top: 23px;
   left: 75px;
 }
+
+@media (max-width: 700px)
+{
+  .middle-circle
+  {
+    width: 100px;
+    height: 100px;
+  }
+
+  .middle-eight-play
+  {
+    font-size: 75px;
+    top: -2px;
+    left: 45px;
+  }
+
+  .middle-eight-work
+  {
+    font-size: 75px;
+    top: -2px;
+    left: 27px;
+  }
+
+}
