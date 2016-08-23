@@ -134,3 +134,46 @@ body
   }
 
 }
+
+.top-toggle
+{
+  color: white;
+  position: absolute;
+  top: 105px;
+  left: 42%;
+}
+
+.bottom-toggle
+{
+  color: white;
+  position: absolute;
+  top: 335px;
+  left: 42%;
+}
+
+@media (max-width: 700px)
+{
+  .top-toggle
+  {
+    color: white;
+    position: absolute;
+    top: 65px;
+    left: 14%;
+  }
+
+  .bottom-toggle
+  {
+    color: white;
+    position: absolute;
+    top: 195px;
+    left: 14%;
+  }
+}
+
+@media (min-width: 700px)
+{
+  .fa
+  {
+    font-size: 3em;
+  }
+}
