@@ -19,6 +19,14 @@ body
   text-shadow:1px 1px 7px #4b2f01;
 }
 
+@media (max-width: 700px)
+{
+  .page-header h1
+  {
+    font-size: 75px;
+  }
+}
+
 .page-header
 {
   border: dashed;
@@ -196,3 +204,49 @@ body
 
 }
 
+#readout
+{
+  background: black;
+  width: 50%;
+  height: 3em;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px black;
+}
+
+#timer
+{
+  text-align: center;
+  color: white;
+  margin: 2px;
+  text-shadow: 1px 1px 9px white;
+}
+
+
+@media (max-width: 700px)
+{
+  #readout
+  {
+    background: black;
+    width: 125px;
+    height: 3em;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 4px;
+  }
+
+  #timer
+  {
+    margin: 4px;
+  }
+}
+
+#timer-button
+{
+  text-align: center;
+  margin-top: 2em;
+}
+
+#myButton
+{
+  background: #fdbf5c;
+}
