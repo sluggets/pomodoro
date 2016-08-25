@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", function() {
   var playDec = document.getElementById("play-dec");
   var workInc = document.getElementById("work-inc");
   var workDec = document.getElementById("work-dec");
+  started = false;
+  interValID = null;
 
   playInc.addEventListener("click", incDec('inc', 'play'));
 
@@ -20,6 +22,17 @@ document.addEventListener("DOMContentLoaded", function() {
   //initVal.innerHTML = '28:00';
 
   listen.addEventListener("click", function () {
+    btnStatus = document.getElementById("myButton");
+    if (btnStatus.innerHTML == "START")
+    {
+      btnStatus.innerHTML = "STOP"; 
+    }
+    else if (btnStatus.innerHTML == "STOP")
+    {
+      btnStatus.innerHTML = "START";
+      clearInterval(interValID);
+      return;
+    }
     defaultPlay = document.getElementById("play").innerHTML;
     defaultWork = document.getElementById("work").innerHTML;
     minutesToGo = parseInt(defaultWork);
@@ -71,6 +84,10 @@ function incDec(dir, session)
 {
   // retrieves existing value and increments/decrements accordingly
   return function() {
+    if (interValID)
+    {
+      clearInterval(interValID);
+    }
     var sessionType = document.getElementById(session);
     var sessTypeVal = sessionType.innerHTML;
     if (dir == 'inc')
