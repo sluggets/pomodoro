@@ -120,7 +120,7 @@ body
   font-size: 150px;
   position: absolute;
   top: 23px;
-  left: 75px;
+  left: 80px;
   text-shadow: 1px 1px 9px white;
 }
 
@@ -249,4 +249,20 @@ body
 #myButton
 {
   background: #fdbf5c;
+}
+
+#alarm
+{
+  text-align: center;
+  margin-top: 5px;
+}
+
+#volume-on
+{
+  display: none;
+}
+
+#volume-off
+{
+  display: inline;
 }
