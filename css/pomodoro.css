@@ -266,3 +266,19 @@ body
 {
   display: inline;
 }
+
+#ext
+{
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+a
+{
+  color: black;
+}
+
+.footer
+{
+  background: #fdbf5c;
+}
